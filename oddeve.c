@@ -3,13 +3,17 @@ int main()
 {
 int n;
 scanf("%d",&n);
-if(n%2==0)
+if(n>0)
 {
-printf("yes");
+printf("positive");
+}
+else if(n<0)
+{
+printf("negative");
 }
 else
 {
-printf("No");
+  printf("zero");
 }
 return 0;
 }
