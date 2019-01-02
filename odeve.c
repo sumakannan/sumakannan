@@ -1,5 +1,5 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main(void)
 {
 int n;
 scanf("%d",&n);
@@ -13,7 +13,7 @@ printf("Even");
 }
 else
 {
-pritf("Odd");
+printf("Odd");
 }
 return 0;
 }
