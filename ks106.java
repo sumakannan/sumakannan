@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class ks106 {
+class ks106 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
