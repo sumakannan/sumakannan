@@ -8,21 +8,21 @@ class ks105
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int p=sc.nextInt();
-		int a=10,q;
+		int a=1,q;
 		int num;
 		q=p;
 		while(p!=0)
 		{
-		a=a*10;
+		        a=a*10;
 			p=p/10;
 		}
 		if(q==0)
 		{
-num=n*a+q;
+			a=a*10;
+                        num=n*a+q;
 }
 else
 {
-	a=a/10;
 	num=n*a+q;
 }
 System.out.println(num);
