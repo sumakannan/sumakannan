@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int a,b;
-scanf("%d%d",&a,&b);
-a=a^b;
-b=a^b;
-a=a^b;
-printf("%d %d",a,b);
+int n,m;
+  scanf("%d%d",&n,&m);
+  n=n^m;
+  m=n^m;
+  n=n^m;
+  printf("%d %d",n,m);
 return 0;
 }
